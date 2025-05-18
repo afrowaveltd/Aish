@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aish.Core", "Aish.Core\Aish.Core.csproj", "{92A7001D-DD47-46FB-A6E7-3EA82866B953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aish.Tests", "Aish.Tests\Aish.Tests.csproj", "{857EAC96-BCC8-4E32-9642-36CC2283AA87}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92A7001D-DD47-46FB-A6E7-3EA82866B953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A7001D-DD47-46FB-A6E7-3EA82866B953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A7001D-DD47-46FB-A6E7-3EA82866B953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A7001D-DD47-46FB-A6E7-3EA82866B953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857EAC96-BCC8-4E32-9642-36CC2283AA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857EAC96-BCC8-4E32-9642-36CC2283AA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857EAC96-BCC8-4E32-9642-36CC2283AA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857EAC96-BCC8-4E32-9642-36CC2283AA87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
