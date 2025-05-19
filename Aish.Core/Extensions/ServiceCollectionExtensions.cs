@@ -17,6 +17,7 @@ public static class ServiceCollectionExtensions
 	{
 		services.AddSingleton<ModuleRegistryService>();
 		services.AddSingleton<CommandDispatcherService>();
+		services.AddSingleton<IExternalCommandExecutor, ExternalCommandExecutor>();
 
 		return services;
 	}
