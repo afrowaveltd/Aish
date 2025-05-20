@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Aish.CLI\Aish.CLI.csproj" />
     <ProjectReference Include="..\Aish.Core\Aish.Core.csproj" />
   </ItemGroup>
 
